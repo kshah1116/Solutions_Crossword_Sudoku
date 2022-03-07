@@ -148,7 +148,8 @@ hr {
 
 .googleIcon {
   float: left;
-  width: 35px;
+  width: 45px;
+  padding-right: 3px;
 }
 
 /* Bottom Tech B Logo Bar */
