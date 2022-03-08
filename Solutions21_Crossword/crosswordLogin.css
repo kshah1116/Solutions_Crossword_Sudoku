@@ -62,6 +62,8 @@ h2 {
 }
 .loginForm .formInput span{
   position: absolute;
+  top: 15px;
+  /* right: 20px; */
 }
 
 
@@ -176,7 +178,7 @@ hr {
 }
 
 /* Media Query */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1009px){
   .loginBox{
     height: 77vh;
     width: 95%;
