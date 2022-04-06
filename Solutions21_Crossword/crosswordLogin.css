@@ -77,8 +77,35 @@ h2 {
 }
 
 /* Login Button */
-
 .submitBtn {
+  align-items: center;
+  background: #2196f3;
+  border: 2px solid #dfdfdf;
+  border-radius: 50px;
+  box-sizing: border-box;
+  box-shadow: 3px 7px 20px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  display: flex;
+  /* flex-direction: row; */
+  font-family: "Barlow";
+  /* font-size: 0.625em; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1em;
+  justify-content: center;
+  left: calc(50% - 85px);
+  letter-spacing: 0.25rem;
+  /* margin: 20px; */
+  /* margin-top: 3.12em; */
+  padding: 7px 50px 7px 50px;
+  position: relative;
+  text-transform: uppercase;
+  width: 10em;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/* .submitBtn {
   background: #2196f3;
   border: 2px solid #dfdfdf;
   box-sizing: border-box;
@@ -94,7 +121,7 @@ h2 {
   margin: 20px;
   padding: 12px 50px 12px 50px;
   text-transform: uppercase;
-}
+} */
 .orOptionElements {
   align-items: center;
   color: #ffffff;
@@ -178,9 +205,74 @@ hr {
 }
 
 /* Media Query */
+/* Tablet */
 @media screen and (max-width: 1009px){
   .loginBox{
     height: 77vh;
     width: 95%;
   }
+  
+  
+  
+  h2 {
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+  
+  
+  .loginForm .formInput input {
+    margin-bottom: 20px;
+    margin-top: 5px;
+  } 
+
+}
+/* Phone */
+@media screen and (max-width: 425px){
+  .loginBox{
+    height: 77vh;
+    width: 95%;
+  }
+  h2{
+    margin-top: -30px;
+    margin-bottom: 45px;
+  }
+  .loginForm .formInput span{
+    position: absolute;
+    top: 7px;
+    /* right: 20px; */
+  }
+  .loginForm .formInput input{
+    font-size: 0.7em;
+  }
+  .submitBtn{
+    font-size: 0.7em;
+    left: calc(50% - 65px);
+  }
+  .orOptionElements{
+    font-size: 1.2em;
+  }
+  .googleIcon {
+    float: left;
+    width: 25px;
+    padding-right: 3px;
+  }
+  .googleBtn{
+    font-size: 0.525em;
+    left: calc(50% - 120px);
+    
+  /* font-style: normal;
+  font-weight: bold;
+  justify-content: center;
+  left: calc(50% - 140px);
+  letter-spacing: 0.25rem;
+  margin: 20px;
+  margin-top: 3.12em;
+  padding: 10px 18px 10px 10px;
+  position: relative;
+  text-transform: uppercase;
+  width: 25em;
+  cursor: pointer; */
+  }
+
+
 }
